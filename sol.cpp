@@ -7,8 +7,8 @@ typedef long long ll;
 void decode() {
 	int p1, p2, q1, q2;
 	cin >> p1 >> p2 >> q1 >> q2;
-	int r1 = abs(q1 - p1);
-	int r2 = abs(q2 - p2);
+	int r1 = q1 - p1;
+	int r2 = q2 - p2;
 	cout << r1 + q1 << " " << r2 + q2 << "\n";
 }
 int main() {
